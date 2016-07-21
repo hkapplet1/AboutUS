@@ -13,6 +13,7 @@
 		94D3FD8C1D40CB5A00F65968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D3FD8A1D40CB5A00F65968 /* Main.storyboard */; };
 		94D3FD8E1D40CB5A00F65968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D3FD8D1D40CB5A00F65968 /* Assets.xcassets */; };
 		94D3FD911D40CB5A00F65968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D3FD8F1D40CB5A00F65968 /* LaunchScreen.storyboard */; };
+		94D3FD991D40DE0E00F65968 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D3FD981D40DE0E00F65968 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94D3FD8D1D40CB5A00F65968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D3FD901D40CB5A00F65968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D3FD921D40CB5A00F65968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D3FD981D40DE0E00F65968 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = aboutUs/TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		94D3FD781D40CB5A00F65968 = {
 			isa = PBXGroup;
 			children = (
+				94D3FD981D40DE0E00F65968 /* TableViewController.swift */,
 				94D3FD831D40CB5A00F65968 /* aboutUs */,
 				94D3FD821D40CB5A00F65968 /* Products */,
 			);
@@ -141,6 +144,7 @@
 				94D3FD891D40CB5A00F65968 /* SecondViewController.swift in Sources */,
 				94D3FD851D40CB5A00F65968 /* AppDelegate.swift in Sources */,
 				94D3FD871D40CB5A00F65968 /* FirstViewController.swift in Sources */,
+				94D3FD991D40DE0E00F65968 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
